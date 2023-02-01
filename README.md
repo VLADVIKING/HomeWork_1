@@ -5,7 +5,8 @@
 
 Введите ряд значений продаж произвольной длины в классе Main для передачи его конструктору класса SalesMAnager:
 ```Java
-SalesManager salesManager = new SalesManager(new int[]{0, 2, 3})```
+SalesManager salesManager = new SalesManager(new int[]{0, 2, 3})
+```
 
 ### Функционал
 
@@ -19,10 +20,12 @@ public int max(int[] sales) {
             }
         }
         return max;
-    }```
+    }
+```
     
 ### Результат
 
 Максимальное значение продаж будет выведено на консоли:
 ```Java
-System.out.println(salesManager.max(salesManager.sales));```
+System.out.println(salesManager.max(salesManager.sales));
+```
