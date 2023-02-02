@@ -15,9 +15,9 @@ public class SalesManager {
         return max;
     }
 
-    public int min(int[] sales) {
-        int min = 0;
-        for (int sale : sales) {
+    public long min(long[] sales) {
+        long min = 0;
+        for (long sale : sales) {
             if (sale < min) {
                 min = sale;
             }
@@ -25,8 +25,8 @@ public class SalesManager {
         return min;
     }
 
-    public int medium(int[] sales) {
-        int medium = 0;
+    public long medium(long[] sales) {
+        long medium = 0;
         int sum = 0;
         int j = 0;
         for (int i = 0; i < sales.length; i++) {
