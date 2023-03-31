@@ -5,6 +5,9 @@ public class SalesManager {
         this.sales = sales;
     }
 
+    public SalesManager() {
+    }
+
     public long max(long[] sales) {
         long max = -1;
         for (long sale : sales) {
